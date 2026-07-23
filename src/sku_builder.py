@@ -9,6 +9,3 @@ def generate_sku(data: SKURequest) -> str:
     """
     seq_str = f"{data.sequence:03d}"
     return f"{data.brand}-{data.gender}-{data.category}-{data.color}-{data.size}-{data.season}-{seq_str}"
-# Cố tình viết code không an toàn
-user_input = "1 + 1"
-eval(user_input)
